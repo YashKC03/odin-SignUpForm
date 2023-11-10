@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url('/images/sign.png');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    height: 33vh;
+}
+
+.second{
+    height: 33vh;
+}
+
+.third{
+    height: 33vh;
+}
