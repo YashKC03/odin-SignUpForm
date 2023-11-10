@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .main{
@@ -20,21 +19,139 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .right{
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 }
 
 .first{
-    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 25vh;
 }
 
 .second{
-    height: 33vh;
+    background-color: white;
+    height: 40vh;
+    align-items: center;
+    box-shadow: 2px 5px 10px #dedede;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+
+input:invalid{
+    outline: none;
+    border: 1px solid red;
+}
+
+label{
+    font-size: 10px;
+    color: #575858;
+}
+
+#error{
+    color: red;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.btn-green{
+    background-color: #ff1f8f;
+    color: white;
+    border: 1px solid rgb(62, 3, 47);
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px 10px #8b8b8b;
+    cursor: pointer;
 }
 
 .third{
-    height: 33vh;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.hyperlink{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.login{
+    color: #ff1f8f;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.a-footer{
+    color: white;
+}
+
+.p-footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+.forImage{
+    height: 34vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.semi-Transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Josefin Sans';
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Josefin Sans';
 }
